@@ -3,20 +3,22 @@
 Sigue la estructura de brief de diseño estándar del proyecto (impeccable/shape), aplicada al rediseño completo del sitio.
 
 ## 1. Resumen de la funcionalidad
-Rediseño del sitio institucional de la Escuela Herminio Almendros, un colegio de preescolar y primaria en Tlalpan, CDMX, con una pedagogía activa y constructivista (herencia Freinet) en operación desde 1980. El sitio debe comunicar con claridad esa propuesta pedagógica a familias que están comparando opciones, y ofrecer un camino siempre visible —pero nunca agresivo— hacia el proceso real de ingreso (plática informativa → ambientación de tres días → entrevista).
+Rediseño del sitio institucional de la Escuela Herminio Almendros, un colegio de preescolar y primaria en Tlalpan, CDMX, con una pedagogía activa y constructivista y un proyecto iniciado en 1980. La relación histórica directa con Herminio Almendros Ibáñez y la tradición Freinet está pendiente de confirmación institucional. El sitio debe comunicar con claridad la propuesta pedagógica a familias que están comparando opciones y ofrecer un camino siempre visible, pero nunca agresivo, hacia el proceso de ingreso.
 
-## 2. Acción principal del usuario
-En palabras del equipo del proyecto: *"todo es importante, pero lo más importante es conocer la propuesta, saber por qué es una opción diferente"*. Agendar la plática informativa es la acción secundaria: debe estar siempre visible y accesible, pero no debe competir por protagonismo con el entendimiento de la propuesta pedagógica. El sitio convence mostrando, no empujando un formulario.
+## 2. Objetivo principal y acciones observables
+En palabras del equipo del proyecto: *"todo es importante, pero lo más importante es conocer la propuesta, saber por qué es una opción diferente"*. El objetivo principal es que una familia comprenda esa diferencia mediante evidencia. Las acciones indicativas son recorrer una práctica completa, consultar Preescolar o Primaria y revisar el proceso de ingreso. Agendar la plática informativa es la conversión secundaria: debe estar siempre visible y accesible, pero no competir con la comprensión de la propuesta. El sitio convence mostrando, no empujando un formulario.
 
 ## 3. Dirección de diseño
-Cálido, editorial, documental — más cerca de una publicación cultural/pedagógica o de un cuaderno escolar real que de un sitio corporativo de "academia bilingüe premium". Debe sentirse hecho por personas (un colectivo docente), no por un departamento de marketing.
+Mensaje rector: **Aquí, cada niña y niño descubre el mundo, no lo memoriza.** La portada debe comunicarlo de forma inmediata mediante una escena real, una explicación breve y acciones claras. El carácter editorial y documental organiza la evidencia en el resto del sitio, pero no se convierte en un eslogan ni obliga a que cada sección parezca una publicación.
 
-**Evitar explícitamente** (ver anti-referencias en [`.impeccable.md`](../../.impeccable.md)): gradientes azul/morado tipo SaaS, iconografía tech genérica, fotos de stock, grids de "instalaciones" con nombres en inglés, sellos/badges como elemento hero.
+**Principio compositivo:** experiencia → práctica → comprensión. Cada declaración pedagógica importante debe relacionarse con una escena o proceso reconocible; no basta con ilustrarla mediante un icono o una fotografía ambiental.
 
-**Buscar**: fotografía documental real (no posada, no stock) de hortaliza, asamblea, textos libres, trabajo con el cuerpo; paleta orgánica tintada hacia verdes de la hortaliza y tonos cálidos de tierra/papel; tipografía con carácter editorial que se sienta escrita a mano en algún punto (textos libres) sin perder legibilidad para cuerpos de texto largos.
+**Evitar explícitamente** (ver anti-referencias en [`.impeccable.md`](../../.impeccable.md)): gradientes SaaS, iconografía escolar o tecnológica genérica, fotos de stock, paleta salvia/terracota usada como cliché de educación alternativa, grids uniformes, collages de falsas postales, garabatos y escritura manual simulada, sellos/badges como elemento hero.
+
+**Buscar:** fotografía documental en secuencias, facsímiles autorizados, transcripciones accesibles, fechas, autorías, pies descriptivos y conexiones visibles entre archivo y práctica actual. La dirección completa, la paleta provisional y los módulos propios se definen en [05-direccion-visual-identidad.md](05-direccion-visual-identidad.md).
 
 ## 4. Estrategia de layout
-Composición guiada por el contenido, con ritmo editorial: bloques de texto e imagen que alternan asimetría en vez de una grilla repetitiva de tarjetas idénticas. La fotografía real ocupa espacio protagónico y sin recortes forzados. Los testimonios se presentan como citas destacadas, no como tarjetas con avatar genérico. El CTA de contacto vive en una posición persistente y discreta (header y/o elemento flotante para WhatsApp), nunca como banner intrusivo o modal.
+Retícula editorial estable con rieles para fecha, autoría y contexto, y rupturas justificadas por la evidencia. El ritmo alterna lectura, documento y secuencia fotográfica, no bloques de texto e imagen repetidos mecánicamente. La fotografía conserva su proporción cuando sea posible. Los testimonios se presentan con contexto y atribución, no como tarjetas ni carrusel. El CTA de contacto vive en el header y al cierre de contenidos relevantes; en móvil puede mantenerse alcanzable sin convertirse en un widget promocional que tape la lectura.
 
 ## 5. Estados clave
 - **Inicio**: primera vista (hero + frase de propuesta), scroll con las secciones descritas en la arquitectura del sitio.
@@ -29,7 +31,7 @@ Composición guiada por el contenido, con ritmo editorial: bloques de texto e im
 - **404**: tono coherente con la voz cálida del resto del sitio, no un error genérico.
 
 ## 6. Modelo de interacción
-Mayormente navegación editorial estática, con interacción ligera y orgánica: revelado suave de fotografías al hacer scroll en Inicio, carrusel simple de testimonios, secciones expandibles para el detalle del proceso de ingreso, formulario de contacto con validación clara. Se evita cualquier animación que se sienta "tech" o llamativa; el movimiento debe sentirse calmado, nunca urgente ni gamificado.
+Mayormente navegación editorial estática, con interacción ligera y funcional. Las secuencias fotográficas pueden revelarse de forma narrativa y el formulario debe tener validación clara. Testimonios, costos, tiempos y pasos de ingreso permanecen visibles sin carruseles ni acordeones. No se anima cada bloque por defecto. Se evita cualquier movimiento que se sienta tecnológico o llamativo; toda animación respeta `prefers-reduced-motion`.
 
 ## 7. Requisitos de contenido
 - Declaración de propuesta pedagógica (refinada a partir del texto actual de misión).
@@ -38,16 +40,26 @@ Mayormente navegación editorial estática, con interacción ligera y orgánica:
 - Copy del proceso de ingreso con tono de bienvenida, no de trámite burocrático.
 - Microcopy de CTA que invite, no presione: por ejemplo "Conoce la propuesta" o "Agenda una plática", nunca "¡Inscríbete ya!" ni contadores de urgencia.
 
-## 8. Referencias recomendadas
-Del set de referencias de impeccable, las más relevantes para esta implementación:
+## 8. Referencias de implementación
+Además de [05-direccion-visual-identidad.md](05-direccion-visual-identidad.md), las guías externas de las skills `impeccable` más relevantes son:
 - `spatial-design.md` — para la composición editorial asimétrica y el ritmo visual.
 - `typography.md` — para elegir una pareja tipográfica cálida y evitar los defaults corporativos.
-- `color-and-contrast.md` — para construir la paleta orgánica en OKLCH sin caer en el azul corporativo.
+- `color-and-contrast.md` — para probar en OKLCH la paleta extraída del espacio real y distinguir el azul material de los códigos corporativos genéricos.
 - `motion-design.md` — para movimiento orgánico y no "tech".
 - `ux-writing.md` — para el tono de voz cercano y sin superlativos en toda la microcopy.
 
-## 9. Preguntas abiertas
+Estas guías no forman parte del repositorio y deben tratarse como criterios de trabajo, no como especificación versionada del proyecto.
+
+## 9. Criterios de éxito visual
+- El sitio sigue siendo reconocible al verlo sin logotipo y en escala de grises.
+- Cada afirmación pedagógica principal se acompaña de una escena, una voz o un documento real.
+- Al menos tres formatos propios —texto libre, acta de asamblea, cuaderno de campo, ensayo fotográfico o pieza de archivo— aparecen con contenido real.
+- Ningún recurso manual, testimonio ni dato se usa como decoración o placeholder en una versión presentable.
+- La portada no puede confundirse con una plantilla Montessori/Reggio ni con la primera exploración estructural.
+
+## 10. Preguntas abiertas
 - Alcance final del rediseño de marca: ¿nuevo logo, o solo refresco de paleta/tipografía sobre el logo actual?
 - ¿Quién autoriza el uso de fotos/video de niñas y niños (permiso de imagen)?
 - ¿Hay una preferencia real por Astro vs. otro framework, o se delega la decisión técnica? (ver [04-plan-tecnico.md](04-plan-tecnico.md))
-- ¿Se mantiene contenido de "En pandemia" y bajo qué enfoque?
+- ¿Qué textos libres, anuarios, actas, cuadernos y piezas de archivo pueden digitalizarse y publicarse?
+- ¿Quién aprobará la política editorial para autoría y representación de menores?

@@ -4,11 +4,11 @@
 
 Fuente: sitio actual en Wix ([herminioalmendros.com](https://www.herminioalmendros.com/)) — páginas de inicio, preescolar, primaria, ingreso, asamblea, textos libres, hortaliza, trabajo con el cuerpo, inglés y celebraciones.
 
-- Proyecto educativo activo desde **1980** (más de cuatro décadas de trayectoria continua).
+- Proyecto educativo iniciado en **1980** (más de cuatro décadas de historia; falta confirmar documentalmente la continuidad institucional).
 - Se define a sí misma como "un colectivo de maestras y maestros" que comparten una propuesta **constructivista, creativa, social, ambientalmente responsable e incluyente** — no como una franquicia ni una marca corporativa.
 - Ubicada en Chimalcoyotl 97-A, Col. Toriello Guerra, Tlalpan, CDMX.
 
-**Contexto histórico del nombre** (información general, no tomada del sitio): Herminio Almendros Ibáñez (1898–1974) fue un pedagogo español, exiliado en Cuba tras la Guerra Civil, y una de las figuras clave en la difusión de las técnicas Freinet —imprenta escolar, texto libre, correspondencia y cooperativa escolar— en el mundo hispanohablante. Que la escuela lleve su nombre no es un detalle decorativo: ancla su identidad en una tradición pedagógica concreta y con casi un siglo de historia, no en una etiqueta de marketing. Vale la pena confirmar con la escuela si esta es efectivamente la referencia, para poder afirmarlo con seguridad en el sitio.
+**Contexto histórico del nombre** (información general, no tomada del sitio y pendiente de fuente bibliográfica): Herminio Almendros Ibáñez (1898–1974) fue un pedagogo español, exiliado en Cuba tras la Guerra Civil, y una de las figuras clave en la difusión de las técnicas Freinet —imprenta escolar, texto libre, correspondencia y cooperativa escolar— en el mundo hispanohablante. Si la escuela confirma que esta es efectivamente la referencia, el nombre puede anclar su identidad en una tradición pedagógica concreta y con casi un siglo de historia, no en una etiqueta de marketing.
 
 ### Pilares pedagógicos con evidencia directa del sitio actual
 
@@ -20,7 +20,7 @@ Fuente: sitio actual en Wix ([herminioalmendros.com](https://www.herminioalmendr
 | **Trabajo con el cuerpo** | "Es nuestra herramienta para explorar, descubrir y conocer el mundo. Las actividades corporales y el conocimiento del espacio dan seguridad (...) para enfrentar y superar retos." | El cuerpo como vía de conocimiento y de construcción de confianza. |
 | **Rincones / Talleres** | Espacios y tiempos diferenciados de trabajo autónomo y exploración dentro del aula. | Autonomía y elección real dentro de la jornada. |
 | **Inglés** | Continuación de lo iniciado en preescolar; clases diarias de una hora ligadas a la vida cotidiana y a proyectos por grado; el fin declarado es la satisfacción de comunicarse en una segunda lengua. | Es una herramienta curricular integrada — no un eje de marca ni un argumento de venta. |
-| **Proceso de ingreso** | Plática de presentación → *ambientación* (visita de tres días al grupo, con costo abonable a la inscripción) → entrevista con el coordinador de sección → entrega de documentos e inscripción. | El ingreso es un proceso de conocimiento mutuo, no una venta inmediata. |
+| **Proceso de ingreso** | El sitio actual comienza con una hoja de datos y cuestionario familiar, seguida por plática de presentación → *ambientación* (visita de tres días al grupo, con costo abonable a la inscripción) → entrevista con el coordinador de sección → entrega de documentos e inscripción. El flujo debe validarse antes de migrarlo. | El ingreso puede comunicarse como un proceso de conocimiento mutuo, no como una venta inmediata. |
 
 ### Lo que el sitio actual no hace — y probablemente no debería empezar a hacer
 - No presume instalaciones, edificios ni tecnología como argumento central.
@@ -41,7 +41,7 @@ Rasgos típicos de ese modelo:
 
 ## 3. Por qué esto importa para el rediseño
 
-Herminio Almendros no compite, ni debería competir, en ese terreno. Ninguna cantidad de pantallas o nombres en inglés puede diferenciarla ahí — su diferenciador real es más difícil de fingir y más valioso: una pedagogía activa sostenida más de 40 años, encarnada en prácticas concretas y verificables (asamblea, textos libres, hortaliza, ambientación de tres días).
+La hipótesis de posicionamiento es que Herminio Almendros no debería competir en ese terreno. Ninguna cantidad de pantallas o nombres en inglés la diferenciaría ahí; su oportunidad es mostrar una pedagogía activa dentro de un proyecto iniciado en 1980, encarnada hoy en prácticas concretas y verificables (asamblea, textos libres, hortaliza y ambientación).
 
 **Un matiz importante, para que quede explícito:** esto no significa que el sitio deba renunciar a captar familias. Sí debe funcionar como una vía real de contacto e inscripción. La diferencia está en *cómo* convence: no imitando el lenguaje de marca de las escuelas tecnológicas/bilingües, sino mostrando con evidencia —no con adjetivos— cómo un niño concreto vive, se expresa y se relaciona con el mundo en esta escuela. Las familias que buscan justamente eso se autoseleccionan; las que buscan bilingüismo/tecnología como argumento principal probablemente no son el público objetivo, y está bien que el sitio no finja serlo para ellas.
 
@@ -50,7 +50,7 @@ Herminio Almendros no compite, ni debería competir, en ese terreno. Ninguna can
 1. **El niño protagonista, no el alumno receptor.** Aprende haciendo, indagando, tanteando — constructivismo real, no como palabra de folleto.
 2. **Se relaciona con el mundo con el cuerpo entero.** Cuerpo, naturaleza (hortaliza), expresión (textos libres, arte) — no solo con la mente frente a una pantalla.
 3. **Tiene voz propia y se le publica.** Textos libres, anuario, asamblea: lo que piensa y siente un niño tiene espacio real, no decorativo.
-4. **Forma parte de una comunidad, no de una institución.** Un colectivo de maestras y maestros, familias involucradas, más de 40 años de historia continua.
+4. **Forma parte de una comunidad, no de una marca corporativa.** Un colectivo de maestras y maestros, familias involucradas y un proyecto iniciado en 1980.
 5. **Inglés y herramientas actuales sí existen, como parte de una formación integral — nunca como titular.**
 6. **El ingreso es un encuentro, no un embudo.** Ambientación de tres días y entrevista: se entra a la escuela conociéndose mutuamente.
 
@@ -64,4 +64,7 @@ Herminio Almendros no compite, ni debería competir, en ese terreno. Ninguna can
 
 ## Abiertas / a confirmar
 - Confirmar si el nombre de la escuela efectivamente honra a Herminio Almendros Ibáñez y la tradición Freinet, para poder contar esa historia con precisión.
+- Incorporar una fuente bibliográfica o institucional para los datos biográficos de Herminio Almendros Ibáñez.
 - Recuperar o reconfirmar la propuesta de valor real del Instituto Tlalpan (o de 2-3 competidores directos en la zona) cuando haya acceso a contenido en vivo, para afinar el contraste.
+- Validar con familias actuales y prospectivas la hipótesis de que la evidencia pedagógica es el principal criterio de diferenciación.
+- Documentar con una fuente institucional la continuidad de la escuela desde 1980 antes de usar expresiones como "trayectoria continua".

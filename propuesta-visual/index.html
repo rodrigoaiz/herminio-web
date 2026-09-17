@@ -1,254 +1,344 @@
 <!doctype html>
 <html lang="es">
 <head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-<meta name="color-scheme" content="light" />
-<title>Escuela Herminio Almendros — Educación activa desde 1980</title>
-<meta name="description" content="Escuela Herminio Almendros: educación preescolar y primaria con pedagogía activa y constructivista en Tlalpan, Ciudad de México, desde 1980." />
-<meta property="og:title" content="Escuela Herminio Almendros" />
-<meta property="og:description" content="Educación activa y constructivista en Tlalpan, CDMX, desde 1980." />
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Bevan&family=Vollkorn:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <title>Escuela Herminio Almendros | Descubrir el mundo</title>
+  <meta name="description" content="Escuela de preescolar y primaria en Tlalpan, CDMX. Una propuesta pedagógica activa que se muestra a través de prácticas, voces y procesos reales.">
+  <meta property="og:title" content="Escuela Herminio Almendros">
+  <meta property="og:description" content="Aquí, cada niña y niño descubre el mundo, no lo memoriza.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Chivo:ital,wght@0,400;0,600;0,800;0,900;1,500&family=Literata:ital,opsz,wght@0,7..72,400;0,7..72,500;0,7..72,700;1,7..72,500&display=swap" rel="stylesheet">
+  <link rel="icon" href="data:,">
+  <link rel="preload" as="image" href="../docs/img/hero.png" fetchpriority="high">
+  <link rel="stylesheet" href="styles.css">
+  <script>document.documentElement.classList.add('js');</script>
 </head>
 <body>
+  <a class="skip-link" href="#contenido">Saltar al contenido</a>
 
-<!-- Sprite de iconos: trazos simples, decorativos. Las fotografías reales los sustituirán. -->
-<svg style="display:none" aria-hidden="true">
-  <symbol id="icon-sprout" viewBox="0 0 100 100" fill="none" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
-    <path d="M50 90 L50 40" />
-    <path d="M50 55 C 30 55 22 40 24 22 C 42 22 54 32 50 52 Z" />
-    <path d="M50 45 C 70 45 78 30 76 14 C 58 14 46 24 50 45 Z" />
-    <path d="M30 90 H70" />
-  </symbol>
-  <symbol id="icon-chat" viewBox="0 0 100 100" fill="none" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
-    <path d="M14 20 H72 a6 6 0 0 1 6 6 V56 a6 6 0 0 1 -6 6 H34 L18 74 V62 H14 a6 6 0 0 1 -6 -6 V26 a6 6 0 0 1 6 -6 Z" />
-    <circle cx="30" cy="40" r="2.5" fill="currentColor" stroke="none" />
-    <circle cx="43" cy="40" r="2.5" fill="currentColor" stroke="none" />
-    <circle cx="56" cy="40" r="2.5" fill="currentColor" stroke="none" />
-  </symbol>
-  <symbol id="icon-book" viewBox="0 0 100 100" fill="none" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
-    <path d="M50 26 C 40 18 24 16 14 18 V72 C 24 70 40 72 50 80 C 60 72 76 70 86 72 V18 C 76 16 60 18 50 26 Z" />
-    <path d="M50 26 V80" />
-    <path d="M22 32 H38" /><path d="M22 42 H38" />
-    <path d="M62 32 H78" /><path d="M62 42 H78" />
-  </symbol>
-  <symbol id="icon-move" viewBox="0 0 100 100" fill="none" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
-    <circle cx="60" cy="20" r="7" fill="currentColor" stroke="none"/>
-    <path d="M60 30 L48 52 L60 60 L58 84" />
-    <path d="M48 52 L26 46" /><path d="M60 60 L78 70" />
-    <path d="M58 84 L42 92" /><path d="M58 84 L74 88" />
-  </symbol>
-</svg>
+  <header class="site-header" data-header>
+    <div class="shell masthead">
+      <a class="brand" href="#inicio" aria-label="Escuela Herminio Almendros, inicio">
+        <span class="brand__type">Escuela</span>
+        <span class="brand__name">Herminio<br>Almendros</span>
+      </a>
 
-<a class="skip-link" href="#contenido">Saltar al contenido</a>
+      <p class="masthead__edition" aria-hidden="true">
+        <span>Proyecto educativo</span>
+        <span>Tlalpan, CDMX</span>
+      </p>
 
-<header class="site-header">
-  <div class="wrap site-header__inner">
-    <a class="wordmark" href="#inicio" aria-label="Herminio Almendros, inicio">
-      <span class="wordmark__name">Herminio<br>Almendros</span>
-      <span class="wordmark__tag">Escuela activa · desde 1980</span>
-    </a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-principal">
+        <span class="nav-toggle__label">Menú</span>
+        <span class="nav-toggle__mark" aria-hidden="true"></span>
+      </button>
 
-    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-principal">
-      <span class="nav-toggle__bar"></span>
-      <span class="nav-toggle__bar"></span>
-      <span class="nav-toggle__bar"></span>
-      <span class="sr-only">Abrir menú</span>
-    </button>
-
-    <div class="nav-collapse" id="nav-principal">
-      <div class="nav-collapse__inner">
-        <nav class="site-nav" aria-label="Principal">
-          <ul>
-            <li><a href="#propuesta">Propuesta pedagógica</a></li>
-            <li><a href="#etapas">Etapas</a></li>
-            <li><a href="#comunidad">Comunidad</a></li>
-            <li><a href="#ingreso">Ingreso</a></li>
-            <li><a href="#contacto">Contacto</a></li>
-          </ul>
-        </nav>
-        <a class="button button--cta" href="#ingreso">Agenda una plática</a>
-      </div>
-    </div>
-  </div>
-</header>
-
-<main id="contenido">
-
-  <section class="hero" id="inicio">
-    <div class="wrap hero__grid">
-      <div class="hero__content" data-reveal>
-        <p class="eyebrow">Educación activa desde 1980</p>
-        <h1>Aquí, cada niña y niño descubre el mundo — no lo memoriza.</h1>
-        <p class="lead">Somos un colectivo de maestras y maestros que acompaña ese descubrimiento con pedagogía activa: con las manos en la tierra, el cuerpo en movimiento y la voz propia siempre publicada.</p>
-        <div class="hero__actions">
-          <a class="button button--cta" href="#ingreso">Agenda una plática informativa</a>
-          <a class="button button--ghost" href="#propuesta">Conoce la propuesta pedagógica →</a>
+      <div class="nav-panel" id="nav-principal">
+        <div class="nav-panel__inner">
+          <nav class="site-nav" aria-label="Principal">
+            <a href="#propuesta">Propuesta</a>
+            <a href="#practicas">Prácticas</a>
+            <a href="#etapas">Etapas</a>
+            <a href="#ingreso">Ingreso</a>
+            <a href="#contacto">Contacto</a>
+          </nav>
+          <a class="header-contact" href="#ingreso">Conversemos <span aria-hidden="true">↗</span></a>
         </div>
       </div>
-      <figure class="doc-frame hero__visual" data-reveal>
-        <svg class="icon" aria-hidden="true"><use href="#icon-sprout"></use></svg>
-        <figcaption>Fotografía documental próximamente — un día cualquiera en la escuela.</figcaption>
-      </figure>
     </div>
-  </section>
+  </header>
 
-  <section class="section section--alt" id="propuesta">
-    <div class="wrap">
-      <div class="section__intro" data-reveal>
-        <p class="eyebrow">Nuestra propuesta pedagógica</p>
-        <h2>No medimos lo que ofrecemos en pantallas ni instalaciones.</h2>
-        <p class="lead">Lo medimos en lo que hace un niño todos los días: sembrar, escribir, moverse, discutir acuerdos con sus compañeras y compañeros. Esto es lo que encontrarás en Herminio Almendros.</p>
+  <main id="contenido">
+    <section class="hero" id="inicio" aria-labelledby="hero-title">
+      <img class="hero__image" src="../docs/img/hero.png" width="1672" height="941" alt="Grupo de niñas y niños participa en una actividad corporal sobre el piso, acompañado por una docente" fetchpriority="high">
+      <div class="hero__overlay" aria-hidden="true"></div>
+
+      <div class="shell hero__content intro-reveal">
+        <p class="hero__eyebrow">Preescolar y primaria · Tlalpan, CDMX</p>
+        <h1 id="hero-title">Aquí, cada niña y niño descubre el mundo <em>— no lo memoriza.</em></h1>
+        <p class="hero__dek">Somos un colectivo de maestras y maestros que acompaña el aprendizaje con experiencias reales: asamblea, textos libres, hortaliza, proyectos y trabajo con el cuerpo.</p>
+        <div class="hero__actions">
+          <a class="hero-button hero-button--primary" href="#propuesta">Conoce nuestra propuesta</a>
+          <a class="hero-button hero-button--secondary" href="#ingreso">Agenda una plática</a>
+        </div>
       </div>
 
-      <ol class="pillars">
-        <li class="pillar" data-reveal>
-          <span class="pillar__index" aria-hidden="true">01</span>
-          <div class="pillar__body">
-            <p class="pillar__label">Asamblea</p>
-            <blockquote>Construimos, entre todos, herramientas para resolver conflictos sin violencia.</blockquote>
-            <p>Cada grupo tiene una clase de Asamblea, acompañada por el psicólogo escolar y su maestra o maestro titular. Ahí se habla de integración, respeto, acuerdos, equidad de género y uso responsable de las redes — con el mismo peso que cualquier otra materia.</p>
-          </div>
-          <figure class="doc-frame doc-frame--square pillar__visual">
-            <svg class="icon" aria-hidden="true"><use href="#icon-chat"></use></svg>
-            <figcaption>Fotografía documental próximamente</figcaption>
-          </figure>
-        </li>
+      <div class="shell hero__caption">
+        <p><strong>Trabajo con el cuerpo.</strong> Una escena cotidiana de aprendizaje en la escuela.</p>
+        <p>Proyecto educativo iniciado en 1980</p>
+      </div>
+    </section>
 
-        <li class="pillar" data-reveal>
-          <span class="pillar__index" aria-hidden="true">02</span>
-          <div class="pillar__body">
-            <p class="pillar__label">Textos libres</p>
-            <blockquote>Lo que un niño escribe, se publica.</blockquote>
-            <p>Cada ciclo escolar, cada grupo produce su propio libro de textos libres — cuentos, poemas, prosa — y toda la comunidad participa en un anuario compartido. La escritura no es un ejercicio: es una voz real, con lectores reales.</p>
-          </div>
-          <figure class="doc-frame doc-frame--square pillar__visual">
-            <svg class="icon" aria-hidden="true"><use href="#icon-book"></use></svg>
-            <figcaption>Fotografía documental próximamente</figcaption>
-          </figure>
-        </li>
+    <section class="manifesto" aria-label="Principio de la propuesta">
+      <div class="shell manifesto__grid">
+        <p class="section-number">01</p>
+        <h2>Aprender es hacer, preguntar<br><span>y volver a intentar.</span></h2>
+        <p class="manifesto__copy">En Herminio Almendros, niñas y niños participan activamente en lo que aprenden. La propuesta se entiende mejor al ver cómo viven esas experiencias todos los días.</p>
+      </div>
+    </section>
 
-        <li class="pillar" data-reveal>
-          <span class="pillar__index" aria-hidden="true">03</span>
-          <div class="pillar__body">
-            <p class="pillar__label">Hortaliza</p>
-            <blockquote>Cuidar un ser vivo enseña más que un libro de texto.</blockquote>
-            <p>En el proyecto de hortaliza, un grupo siembra, cuida y cosecha durante todo el ciclo escolar. Ahí aprenden ciencias observando transformaciones reales — no ilustraciones de un libro.</p>
-          </div>
-          <figure class="doc-frame doc-frame--square pillar__visual">
-            <svg class="icon" aria-hidden="true"><use href="#icon-sprout"></use></svg>
-            <figcaption>Fotografía documental próximamente</figcaption>
-          </figure>
-        </li>
+    <section class="evidence shell" id="propuesta">
+      <header class="section-heading">
+        <p class="kicker">Así se vive la propuesta</p>
+        <h2>El cuerpo también piensa.</h2>
+        <p>El movimiento y la relación con el espacio ayudan a explorar, descubrir y construir seguridad frente a nuevos retos.</p>
+      </header>
 
-        <li class="pillar" data-reveal>
-          <span class="pillar__index" aria-hidden="true">04</span>
-          <div class="pillar__body">
-            <p class="pillar__label">Trabajo con el cuerpo</p>
-            <blockquote>El cuerpo también piensa.</blockquote>
-            <p>Las actividades corporales son una herramienta para explorar, descubrir y conocer el mundo. El dominio del espacio y del propio cuerpo da a niñas y niños la seguridad para enfrentar retos nuevos.</p>
+      <div class="scene-study">
+        <figure class="scene-study__wide">
+          <div class="image-register">
+            <img src="../docs/img/hero.png" width="1672" height="941" alt="Vista completa de la sesión de trabajo corporal">
           </div>
-          <figure class="doc-frame doc-frame--square pillar__visual">
-            <svg class="icon" aria-hidden="true"><use href="#icon-move"></use></svg>
-            <figcaption>Fotografía documental próximamente</figcaption>
+          <figcaption>01 / La escena completa: el cuerpo y el espacio son parte de la actividad.</figcaption>
+        </figure>
+
+        <div class="scene-study__details" aria-label="Detalles de la misma escena">
+          <figure>
+            <div class="detail-crop detail-crop--group">
+              <img src="../docs/img/hero.png" width="1672" height="941" alt="Detalle de la misma fotografía: el grupo reunido a nivel del piso">
+            </div>
+            <figcaption>02 / El grupo comparte una consigna.</figcaption>
           </figure>
+          <figure>
+            <div class="detail-crop detail-crop--teacher">
+              <img src="../docs/img/hero.png" width="1672" height="941" alt="Detalle de la misma fotografía: la docente observa y acompaña al grupo">
+            </div>
+            <figcaption>03 / La docente observa antes de intervenir.</figcaption>
+          </figure>
+        </div>
+
+        <aside class="reading-notes">
+          <p class="reading-notes__title">Lectura pedagógica</p>
+          <dl>
+            <div>
+              <dt>Práctica</dt>
+              <dd>Trabajo con el cuerpo</dd>
+            </div>
+            <div>
+              <dt>Escena</dt>
+              <dd>Explorar el espacio desde una consigna común.</dd>
+            </div>
+            <div>
+              <dt>Aprendizaje</dt>
+              <dd>Reconocer el cuerpo como herramienta para descubrir, relacionarse y enfrentar retos.</dd>
+            </div>
+          </dl>
+          <p class="source-note">Descripción construida a partir del contenido público actual de la escuela. Requiere validación docente antes de publicación.</p>
+        </aside>
+      </div>
+
+      <ol class="evidence-sequence" aria-label="Una forma activa de aprender">
+        <li><span>01</span><strong>Hacer</strong><small>Participar con el cuerpo entero</small></li>
+        <li><span>02</span><strong>Observar</strong><small>Detenerse en lo que cambia</small></li>
+        <li><span>03</span><strong>Conversar</strong><small>Construir sentido con otros</small></li>
+        <li><span>04</span><strong>Comprender</strong><small>Relacionar la experiencia</small></li>
+      </ol>
+    </section>
+
+    <section class="published-voice" id="practicas">
+      <div class="shell published-voice__grid">
+        <header class="published-voice__heading">
+          <p class="kicker">Textos libres / Edición colectiva</p>
+          <h2>Lo que una niña o un niño escribe, encuentra lectores.</h2>
+          <p>Cada ciclo escolar, los grupos producen un libro con cuentos, poemas y textos propios. La escritura deja de ser ejercicio y se convierte en una voz que circula.</p>
+        </header>
+
+        <article class="document-sheet" aria-label="Muestra del módulo de texto libre">
+          <header class="document-sheet__meta">
+            <span>Texto libre</span>
+            <span>Facsímil por seleccionar</span>
+          </header>
+          <div class="document-sheet__body">
+            <p class="document-sheet__placeholder">Aquí vivirá una página real del libro de un grupo.</p>
+            <p>No usamos un texto inventado ni caligrafía falsa para llenar el espacio. La siguiente versión deberá incorporar una pieza autorizada, su transcripción y el contexto en que fue escrita.</p>
+          </div>
+          <footer class="document-sheet__footer">
+            <span>Autoría y grupo protegidos hasta contar con autorización</span>
+            <span>p. —</span>
+          </footer>
+        </article>
+
+        <aside class="publication-process">
+          <p class="publication-process__title">Del cuaderno al libro</p>
+          <ol>
+            <li><span>1</span>Una voz encuentra forma.</li>
+            <li><span>2</span>El grupo lee y conversa.</li>
+            <li><span>3</span>El texto se edita y publica.</li>
+            <li><span>4</span>La comunidad se vuelve lectora.</li>
+          </ol>
+        </aside>
+      </div>
+    </section>
+
+    <section class="practices shell" aria-labelledby="practicas-titulo">
+      <header class="section-heading section-heading--wide">
+        <p class="kicker">Asamblea y hortaliza</p>
+        <h2 id="practicas-titulo">Aprender también es escuchar, cuidar y hacerse nuevas preguntas.</h2>
+      </header>
+
+      <article class="assembly-module">
+        <div class="assembly-module__intro">
+          <p class="module-code">A / Asamblea</p>
+          <h3>Una pregunta que cabe en la mesa de todos.</h3>
+          <p>La convivencia se trabaja de manera explícita: integración, acuerdos, equidad, prevención y resolución no violenta de conflictos.</p>
+        </div>
+        <div class="assembly-agenda">
+          <p class="assembly-agenda__title">Orden del día / muestra de formato</p>
+          <ol>
+            <li><span>01</span><p>Nombrar lo que pasó sin reducirlo a culpables.</p></li>
+            <li><span>02</span><p>Escuchar cómo lo vivió cada persona.</p></li>
+            <li><span>03</span><p>Construir un acuerdo que el grupo pueda sostener.</p></li>
+          </ol>
+          <p class="source-note">Los enunciados son demostrativos. Una publicación final debe usar preguntas o acuerdos reales anonimizados y validados por el equipo docente.</p>
+        </div>
+      </article>
+
+      <article class="field-module">
+        <header class="field-module__header">
+          <p class="module-code">B / Hortaliza y ciencias</p>
+          <h3>Observar también es aprender a preguntar.</h3>
+        </header>
+        <div class="field-log" role="table" aria-label="Estructura de un cuaderno de campo">
+          <div class="field-log__row field-log__head" role="row">
+            <span role="columnheader">Momento</span>
+            <span role="columnheader">Registro</span>
+            <span role="columnheader">Lo que abre</span>
+          </div>
+          <div class="field-log__row" role="row">
+            <strong role="cell">Observar</strong>
+            <span role="cell">Una transformación concreta</span>
+            <span role="cell">¿Qué cambió?</span>
+          </div>
+          <div class="field-log__row" role="row">
+            <strong role="cell">Comparar</strong>
+            <span role="cell">Dos momentos del proceso</span>
+            <span role="cell">¿Por qué no ocurrió igual?</span>
+          </div>
+          <div class="field-log__row" role="row">
+            <strong role="cell">Volver</strong>
+            <span role="cell">Una nueva visita al problema</span>
+            <span role="cell">¿Qué necesitamos probar ahora?</span>
+          </div>
+        </div>
+        <p class="field-module__aside">Este módulo se completará con fechas, dibujos y observaciones reales de un cuaderno de campo.</p>
+      </article>
+    </section>
+
+    <section class="stages" id="etapas">
+      <div class="shell">
+        <header class="stages__heading">
+          <p class="kicker">Dos etapas / una misma conversación</p>
+          <p>El sitio final contará cada etapa como un día vivido, no como una lista de materias.</p>
+        </header>
+
+        <div class="stage-index">
+          <article class="stage-entry">
+            <p class="stage-entry__age"><span>03</span> a <span>06</span></p>
+            <div>
+              <h2>Preescolar</h2>
+              <p>Rincones, talleres, cuerpo y hortaliza abren las primeras formas de explorar con autonomía.</p>
+              <a class="text-link" href="#contacto">Explorar esta etapa <span aria-hidden="true">↗</span></a>
+            </div>
+          </article>
+          <article class="stage-entry">
+            <p class="stage-entry__age"><span>06</span> a <span>12</span></p>
+            <div>
+              <h2>Primaria</h2>
+              <p>Textos libres, proyectos, asamblea y campamentos dan lectores, interlocutores y mundo a lo aprendido.</p>
+              <a class="text-link" href="#contacto">Explorar esta etapa <span aria-hidden="true">↗</span></a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="archive-band">
+      <div class="shell archive-band__grid">
+        <p class="archive-band__year">1980</p>
+        <div class="archive-band__copy">
+          <p class="kicker">Archivo vivo</p>
+          <h2>La historia no será una cifra decorativa.</h2>
+          <p>El proyecto comenzó en 1980. El archivo permitirá conectar impresos, fotografías y voces de otros ciclos con las prácticas que continúan hoy, una vez verificada su procedencia.</p>
+        </div>
+        <p class="archive-band__status">Inventario histórico<br>pendiente de integrar</p>
+      </div>
+    </section>
+
+    <section class="admission shell" id="ingreso">
+      <header class="section-heading admission__heading">
+        <p class="kicker">Información práctica / Ingreso</p>
+        <h2>Conocernos antes de decidir.</h2>
+        <p>El proceso no se esconde detrás de un formulario. Estos son los pasos publicados actualmente; la escuela debe confirmar el flujo, los costos y los documentos antes del lanzamiento.</p>
+      </header>
+
+      <ol class="admission-steps">
+        <li>
+          <span class="admission-steps__index">01</span>
+          <h3>Hoja de datos</h3>
+          <p>Información inicial y cuestionario familiar. En el sitio final se explicará qué datos son necesarios y para qué se utilizan.</p>
+        </li>
+        <li>
+          <span class="admission-steps__index">02</span>
+          <h3>Plática</h3>
+          <p>Una presentación de la propuesta y un primer espacio para preguntas, sin presión para decidir.</p>
+        </li>
+        <li>
+          <span class="admission-steps__index">03</span>
+          <h3>Ambientación</h3>
+          <p>Tres días con el grupo para que la niña o el niño y la escuela puedan conocerse en contexto.</p>
+        </li>
+        <li>
+          <span class="admission-steps__index">04</span>
+          <h3>Entrevista</h3>
+          <p>Conversación con la coordinación de la sección después de la experiencia de ambientación.</p>
+        </li>
+        <li>
+          <span class="admission-steps__index">05</span>
+          <h3>Inscripción</h3>
+          <p>Entrega de documentos y cierre del proceso con costos, fechas y condiciones visibles.</p>
         </li>
       </ol>
 
-      <p class="pillars__note" data-reveal>Y sí, también hay inglés — todos los días, desde preescolar, como una herramienta más para comunicarse con el mundo. No es el titular: es una herramienta integrada, no el anuncio.</p>
-    </div>
-  </section>
-
-  <section class="section" id="etapas">
-    <div class="wrap">
-      <div class="section__intro" data-reveal>
-        <p class="eyebrow">Las etapas</p>
-        <h2>Dos tramos, un mismo acompañamiento.</h2>
+      <div class="admission-contact">
+        <p><strong>¿Quieres conocer la propuesta?</strong><br>Empecemos con una conversación.</p>
+        <a class="action-link" href="https://wa.me/525527095530" target="_blank" rel="noopener">Agendar una plática <span aria-hidden="true">↗</span></a>
       </div>
-      <div class="stages" data-reveal>
-        <article class="stage stage--preescolar">
-          <p class="stage__range">3 a 6 años</p>
-          <h3>Preescolar</h3>
-          <p>Rincones, talleres, trabajo con el cuerpo, hortaliza y los primeros pasos en la lectoescritura — siempre jugando, siempre explorando.</p>
-          <a class="link-arrow" href="#">Conoce preescolar →</a>
-        </article>
-        <article class="stage stage--primaria">
-          <p class="stage__range">6 a 12 años</p>
-          <h3>Primaria</h3>
-          <p>Textos libres, proyectos, asamblea, campamentos y las materias de siempre — vividas distinto.</p>
-          <a class="link-arrow" href="#">Conoce primaria →</a>
-        </article>
+    </section>
+  </main>
+
+  <footer class="site-footer" id="contacto">
+    <div class="shell footer-grid">
+      <div class="footer-brand">
+        <p>Escuela</p>
+        <p>Herminio<br>Almendros</p>
+      </div>
+      <div>
+        <p class="footer-label">Visítanos</p>
+        <address>Chimalcoyotl 97-A<br>Col. Toriello Guerra<br>Tlalpan, CDMX, 14050</address>
+      </div>
+      <div>
+        <p class="footer-label">Conversemos</p>
+        <a href="tel:5556068899">55 5606 8899</a>
+        <a href="tel:5556652155">55 5665 2155</a>
+        <a href="https://wa.me/525527095530" target="_blank" rel="noopener">WhatsApp</a>
+        <a href="mailto:herminioalmendros@hotmail.com">herminioalmendros@hotmail.com</a>
+      </div>
+      <div>
+        <p class="footer-label">Comunidad</p>
+        <a href="https://www.facebook.com/Comunidad-Herminio-Almendros-756396684476777/" target="_blank" rel="noopener">Facebook</a>
+        <a href="https://instagram.com/escuelaherminioalmendros/" target="_blank" rel="noopener">Instagram</a>
       </div>
     </div>
-  </section>
-
-  <section class="section section--comunidad" id="comunidad">
-    <div class="wrap">
-      <blockquote class="testimonial" data-reveal>
-        <p>Lo que más agradezco es que mi hija llegó hablando de lo que sembró, no de una calificación. Aquí aprendió a discutir un acuerdo antes que a memorizar una tabla.</p>
-        <footer>
-          <cite>Testimonio de ejemplo</cite>
-          <span class="testimonial__note">se reemplaza por citas reales de familias antes de publicar</span>
-        </footer>
-      </blockquote>
+    <div class="shell footer-legal">
+      <p>© <span id="year"></span> Escuela Herminio Almendros</p>
+      <p>Propuesta gráfica para revisión / contenido sujeto a validación</p>
+      <a href="#">Aviso de privacidad</a>
     </div>
-  </section>
+  </footer>
 
-  <section class="section section--alt" id="ingreso">
-    <div class="wrap">
-      <div class="section__intro" data-reveal>
-        <p class="eyebrow">Proceso de ingreso</p>
-        <h2>Conocerse antes de decidir.</h2>
-        <p class="lead">No buscamos llenar un salón. Buscamos que cada familia que llega sepa, con calma, si esta es la escuela que busca — y que nosotros lo sepamos también.</p>
-      </div>
-
-      <ol class="steps" data-reveal>
-        <li><span class="steps__index">01</span><p class="steps__label">Plática informativa</p></li>
-        <li><span class="steps__index">02</span><p class="steps__label">Ambientación — 3 días con el grupo</p></li>
-        <li><span class="steps__index">03</span><p class="steps__label">Entrevista con el coordinador</p></li>
-        <li><span class="steps__index">04</span><p class="steps__label">Documentos e inscripción</p></li>
-      </ol>
-
-      <a class="button button--cta" href="#contacto">Agenda tu plática informativa</a>
-    </div>
-  </section>
-
-</main>
-
-<footer class="site-footer" id="contacto">
-  <div class="wrap site-footer__grid">
-    <div>
-      <p class="wordmark wordmark--footer">Herminio<br>Almendros</p>
-      <p class="muted-footer">Chimalcoyotl 97-A, Col. Toriello Guerra,<br>Tlalpan, CDMX, 14050</p>
-    </div>
-    <div>
-      <p class="footer__heading">Contacto</p>
-      <p><a href="tel:5556068899">55 5606 8899</a></p>
-      <p><a href="tel:5556652155">55 5665 2155</a></p>
-      <p><a href="https://wa.me/525527095530" target="_blank" rel="noopener">WhatsApp: 55 2709 5530</a></p>
-      <p><a href="mailto:herminioalmendros@hotmail.com">herminioalmendros@hotmail.com</a></p>
-    </div>
-    <div>
-      <p class="footer__heading">Síguenos</p>
-      <p><a href="https://www.facebook.com/Comunidad-Herminio-Almendros-756396684476777/" target="_blank" rel="noopener">Facebook</a></p>
-      <p><a href="https://instagram.com/escuelaherminioalmendros/" target="_blank" rel="noopener">Instagram</a></p>
-    </div>
-    <div>
-      <p class="footer__heading">Legal</p>
-      <p><a href="#">Aviso de privacidad</a></p>
-    </div>
-  </div>
-  <p class="site-footer__legal">© <span id="year"></span> Escuela Herminio Almendros. Propuesta visual en construcción — no es el sitio final.</p>
-</footer>
-
-<a class="whatsapp-tab" href="https://wa.me/525527095530" target="_blank" rel="noopener">
-  <svg class="icon" aria-hidden="true"><use href="#icon-chat"></use></svg>
-  <span>Escríbenos</span>
-</a>
-
-<script src="script.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>
